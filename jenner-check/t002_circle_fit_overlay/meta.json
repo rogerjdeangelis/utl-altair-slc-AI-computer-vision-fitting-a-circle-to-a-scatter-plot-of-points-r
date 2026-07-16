@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_circle_fit_overlay",
+  "source_file": "utl-altair-slc-AI-computer-vision-fitting-a-circle-to-a-scatter-plot-of-points-r.sas",
+  "source_blob_sha": "27d8c5f72b3f6eb0710020d27902053ac1cc328e",
+  "source_commit": "267167fe490cdb3c6f6930943ba882a3fee9e903",
+  "notes": "Regenerates workx.have with the source's exact streaminit(1) seed, then reproduces the ycir overlay DATA step (formula, symputx macro vars, PROC PLOT) byte-for-byte. Edit: radius/x_origin/y_origin are supplied directly (203.038 / -1.711 / 0.000) instead of via PROC R + conicfit's CircleFitByLandau(), since Jenner has no R bridge -- these are the exact values the author's own README shows that R call returning for this data, not invented numbers. libname workx pointed at WORK instead of d:/wpswrkx."
+}

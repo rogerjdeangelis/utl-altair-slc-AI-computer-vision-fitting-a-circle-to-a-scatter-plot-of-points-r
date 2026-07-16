@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-16T04:46:26Z",
+  "_captured_run_id": "r_518d6b52df7a4856b6f7d191d885b3d9",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option VALIDVARNAME changed to UPCASE.",
+    "NOTE: Wrote workx.have (100 rows, 2 columns).",
+    "NOTE: PROC PLOT produced 1 plot(s) from 100 observations."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

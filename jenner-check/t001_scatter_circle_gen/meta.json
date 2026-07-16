@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_scatter_circle_gen",
+  "source_file": "utl-altair-slc-AI-computer-vision-fitting-a-circle-to-a-scatter-plot-of-points-r.sas",
+  "source_blob_sha": "27d8c5f72b3f6eb0710020d27902053ac1cc328e",
+  "source_commit": "267167fe490cdb3c6f6930943ba882a3fee9e903",
+  "notes": "Generates the synthetic noisy-circle scatter (streaminit(1), rand('normal'), sqrt(40000-x**2)) and renders it with PROC PLOT, exactly as in the source. Only edit: libname workx pointed at WORK instead of the source's hardcoded d:/wpswrkx Windows path, since Jenner has no local disk to bind a libname to."
+}

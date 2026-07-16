@@ -1,0 +1,56 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library WORKX uses 1 concatenated paths.
+NOTE: PROC DATASETS library=WORKX
+
+NOTE: 
+                       Directory
+
+       Libref             WORKX
+       Engine             V9
+       Physical Name      /tmp/work/r_9777ccabc94e40f1b094834445d4c158/work/d0ee52b8-e618-4561-b229-fcdaad4eee54
+
+       (no members)
+
+NOTE: NOTE: KILL option deleted 0 member(s) from library WORKX.
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: DATA workx.have
+
+
+NOTE: Wrote workx.have (100 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA workx.want
+
+
+NOTE: Wrote workx.want (1 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA _null_
+
+
+NOTE: Read 1 rows from workx.want.
+NOTE: Wrote _null_ (1 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+RADIUS=203.038
+X_ORIGIN=-1.711
+Y_ORIGIN=0.000
+formula = sqrt(203.038**2 - (x - (-1.711))**2) + 0.000
+NOTE: DATA want
+
+
+NOTE: Read 50 rows from workx.have.
+NOTE: Wrote want (100 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 64.
+NOTE: Option PS changed to 44.
+NOTE: PROC PLOT data=want
+
+NOTE: PROC PLOT produced 1 plot(s) from 100 observations.
