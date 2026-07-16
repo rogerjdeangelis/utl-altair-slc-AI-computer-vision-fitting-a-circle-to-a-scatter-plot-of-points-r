@@ -1,0 +1,29 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library WORKX uses 1 concatenated paths.
+NOTE: PROC DATASETS library=WORKX
+
+NOTE: 
+                       Directory
+
+       Libref             WORKX
+       Engine             V9
+       Physical Name      /tmp/work/r_518d6b52df7a4856b6f7d191d885b3d9/work/56b0d76f-e316-46b2-a441-ebe355cf29f7
+
+       (no members)
+
+NOTE: NOTE: KILL option deleted 0 member(s) from library WORKX.
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: DATA workx.have
+
+
+NOTE: Wrote workx.have (100 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 64.
+NOTE: Option PS changed to 54.
+NOTE: PROC PLOT data=workx.have
+
+NOTE: PROC PLOT produced 1 plot(s) from 100 observations.
